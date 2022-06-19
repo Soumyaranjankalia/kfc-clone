@@ -7,7 +7,7 @@ import { Price } from "./Price";
 
 export const Navbar = () => {
   const cart = useSelector((store) => store.chickenBucketData.cart);
-  console.log("counter:", cart[0])
+  console.log("counter:", cart[0]);
   const navigate = useNavigate();
   return (
     <>
@@ -33,16 +33,18 @@ export const Navbar = () => {
               <Image src="https://images.ctfassets.net/wtodlh47qxpt/6bJdGLRkksNvWP4LI9ZiFF/cb89d6393492fd093e0f99980abfa39e/Account_Icon.svg" />
             </Flex>
             <Flex marginLeft="10px">
-              <Text fontWeight={"bold"} marginTop="11px">
-                Sign In
-              </Text>
+              <Link to={"/login"}>
+                <Text fontWeight={"bold"} marginTop="11px">
+                  Sign In
+                </Text>
+              </Link>
             </Flex>
             <Flex
               borderLeft={"1px solid gray"}
               marginLeft="20px"
               marginTop="13px"
             >
-              Price{<Price/>}
+              Price{<Price />}
             </Flex>
             <Text>{cart[0]?.length ? cart[0].length : 0}</Text>
             <Flex>

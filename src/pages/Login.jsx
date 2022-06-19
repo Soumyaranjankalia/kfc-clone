@@ -23,7 +23,7 @@ export const Login = ({ setLoginUser }) => {
       setLoginUser(res.data.user);
       let msg = res.data.message
       if(msg === "Login Successfull"){
-        // navigate("/cart");
+        navigate("/");
       }else{
         navigate("/login");
       }
