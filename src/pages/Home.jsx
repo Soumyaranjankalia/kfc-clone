@@ -12,6 +12,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Navbar } from "../components/Navbar";
 import { fetchData } from "../Redux/Home/action";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   const dispatch = useDispatch();
@@ -57,37 +58,39 @@ export const Home = () => {
         <Box>
           <Center py={11} flexWrap="wrap" justifyContent="space-between">
             {homedata.map((e) => (
-              <Box
-                role={"group"}
-                p={4}
-                maxW={"250px"}
-                w={"full"}
-                bg={useColorModeValue("white", "gray.800")}
-                rounded={"lg"}
-                pos={"relative"}
-                zIndex={1}
-              >
-                <Box>
-                  <Image
-                    rounded={"lg"}
-                    height={200}
-                    width={300}
-                    objectFit={"contain"}
-                    src={e.image}
-                  />
+              <Link to={"/menu"}>
+                <Box
+                  role={"group"}
+                  p={4}
+                  maxW={"250px"}
+                  w={"full"}
+                  bg={useColorModeValue("white", "gray.800")}
+                  rounded={"lg"}
+                  pos={"relative"}
+                  zIndex={1}
+                >
+                  <Box>
+                    <Image
+                      rounded={"lg"}
+                      height={200}
+                      width={300}
+                      objectFit={"contain"}
+                      src={e.image}
+                    />
+                  </Box>
+                  <Stack pt={13} align={"center"}>
+                    <Heading
+                      fontSize={"18px"}
+                      fontFamily={"National 2 Condensed"}
+                      fontWeight={700}
+                      lineHeight="25px"
+                      letterSpacing=".5px"
+                    >
+                      {e.name}
+                    </Heading>
+                  </Stack>
                 </Box>
-                <Stack pt={13} align={"center"}>
-                  <Heading
-                    fontSize={"18px"}
-                    fontFamily={"National 2 Condensed"}
-                    fontWeight={700}
-                    lineHeight="25px"
-                    letterSpacing=".5px"
-                  >
-                    {e.name}
-                  </Heading>
-                </Stack>
-              </Box>
+              </Link>
             ))}
           </Center>
         </Box>
@@ -127,11 +130,7 @@ export const Home = () => {
         </Flex>
         <Flex gap={"30px"} justify="center">
           <Flex>
-            <Box
-              w="250px"
-              backgroundColor="white"
-              borderRadius={"10px"}
-            >
+            <Box w="250px" backgroundColor="white" borderRadius={"10px"}>
               <Image
                 rounded={"lg"}
                 src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg"
@@ -161,11 +160,7 @@ export const Home = () => {
             </Box>
           </Flex>
           <Flex>
-            <Box
-              w="250px"
-              backgroundColor="white"
-              borderRadius={"10px"}
-            >
+            <Box w="250px" backgroundColor="white" borderRadius={"10px"}>
               <Image
                 rounded={"lg"}
                 src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg"
@@ -177,11 +172,7 @@ export const Home = () => {
             </Box>
           </Flex>
           <Flex>
-            <Box
-              w="250px"
-              backgroundColor="white"
-              borderRadius={"10px"}
-            >
+            <Box w="250px" backgroundColor="white" borderRadius={"10px"}>
               <Image
                 rounded={"lg"}
                 src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg"
