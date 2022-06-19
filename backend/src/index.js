@@ -1,11 +1,11 @@
 const express = require("express");
 const connect = require("./configs/db");
 
-const cors = require("cors")
-const app = express()
+const cors = require("cors");
+const app = express();
 
-app.use(express.json())
-app.use(cors())
+app.use(express.json());
+app.use(cors());
 
 // const user = require("./controller/user.controller");
 // app.use("/register", user);
@@ -26,10 +26,12 @@ app.use("/register", register);
 const login = require("./controller/login.controller");
 app.use("/login", login);
 
-app.listen(9002, async function () {
+let port = process.env.PORT || 5000;
+
+app.listen(port, function () {
   try {
-    await connect();
-    console.log("listening 9002");
+    connect();
+    console.log("listening 5000");
   } catch (err) {
     console.log(err);
   }
