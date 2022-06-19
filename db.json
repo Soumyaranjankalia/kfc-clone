@@ -1,0 +1,81 @@
+{
+  "homedata": [
+    {
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT86.jpg?ver=16.58",
+      "name": "CHICKEN BUCKETS"
+    },
+    {
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT200.jpg?ver=16.58",
+      "name": "NEW LAUNCH"
+    },
+    {
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT190.jpg?ver=16.58",
+      "name": "BIRYANI BUCKETS"
+    },
+    {
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
+      "name": "DEALS"
+    },
+    {
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT158.jpg?ver=16.58",
+      "name": "BOX MEALS"
+    },
+    {
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT99.jpg?ver=16.58",
+      "name": "BURGERS"
+    },
+    {
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT178.jpg?ver=16.58",
+      "name": "STAY HOME SPECIALS"
+    },
+    {
+      "image": "https://online.kfc.co.in/static/media/finger_lickin.fc21c805.svg",
+      "name": "View All Menu"
+    }
+  ],
+  "chickendata": [
+    {
+      "id": 1,
+      "name": "Ultimate Savings Bucket",
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000638.jpg?ver=16.66",
+      "price": 699,
+      "des": "Save 35% on signature bucket of 4pc Hot & crispy, 6 Wings, 4 strips, 3 Dips & Pepsi PET [serves 2-3 ]"
+    },
+    {
+      "id": 2,
+      "name": "Big 12",
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000854.jpg?ver=16.66",
+      "price": 719,
+      "des": "Save 28% on 6pc Hot & Crispy Chicken, 6 Hot Wings & 2 dips [serves 2- 3]"
+    },
+    {
+      "id": 3,
+      "name": "Mingles Bucket Meal",
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000921.jpg?ver=16.66",
+      "price": 479,
+      "des": "Save Rs. 71 on 4 Hot Wings, 2 Chicken Strips, Reg Popcorn, medium fries & Pepsi PET [serves 2 ]"
+    },
+    {
+      "id": 4,
+      "name": "8 pc Hot & Crispy Chicken",
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K009.jpg?ver=16.66",
+      "price": 748,
+      "des": "Save Rs. 182  & get 8pc signature Hot & crispy chicken [serves 3-4]"
+    },
+    {
+      "id": 5,
+      "name": "6 pc Hot & Crispy Chicken",
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K012.jpg?ver=16.66",
+      "price": 619,
+      "des": "Flat 10% off on 6pc signature Hot & crispy chicken [serves 2-3]"
+    },
+    {
+      "id": 6,
+      "name": "Chick & Share",
+      "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000571.jpg?ver=16.66",
+      "price": 448,
+      "des": "Save 22% & Pick any - 5pc Hot & Crispy OR 10 chicken strips OR 2 Large Popcorn  [serves 2]"
+    }
+  ],
+  "cart": []
+}
