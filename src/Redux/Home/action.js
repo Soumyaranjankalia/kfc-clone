@@ -8,7 +8,7 @@ export const getData = (payload) => ({
 
 export const fetchData = () => (dispatch) => {
   axios
-    .get("http://localhost:9002/homedata")
+    .get("https://kfc-clone-api.herokuapp.com/homedata")
     .then((res) => {
       console.log(res.data);
       dispatch(getData(res.data));

@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
+require('dotenv').config()
 module.exports = () => {
   return mongoose.connect(
-    "mongodb+srv://Soumya:Soumya@cluster0.jdiio.mongodb.net/?retryWrites=true&w=majority"
+    process.env.key
   );
 };
