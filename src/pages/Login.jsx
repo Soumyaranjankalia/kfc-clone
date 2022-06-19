@@ -16,7 +16,7 @@ export const Login = ({ setLoginUser }) => {
   };
 
   const login = async () => {
-    axios.post("http://localhost:9002/login", user)
+    axios.post("https://evening-meadow-93654.herokuapp.com/login", user)
     .then((res) => {
       alert(res.data.message)
       console.log(res.data.user)

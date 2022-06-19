@@ -8,7 +8,7 @@ export const getChickenData = (payload) => ({
 
 export const fetchChickenData = () => (dispatch) => {
   axios
-    .get("http://localhost:9002/chickendata")
+    .get("https://evening-meadow-93654.herokuapp.com/chickendata")
     .then((res) => {
       console.log(res.data);
       dispatch(getChickenData(res.data));
@@ -27,7 +27,7 @@ export const addChickenCart = (payload) => ({
 
 export const addChickenToCart = (prop) => (dispatch) => {
   axios
-    .post("http://localhost:9002/cart", prop)
+    .post("https://evening-meadow-93654.herokuapp.com/cart", prop)
     .then((res) => {
       console.log(res.data);
       dispatch(addChickenCart(res.data));
@@ -46,7 +46,7 @@ export const removeChickenCart = (payload) => ({
 
 export const removeChickenToCart = (prop) => (dispatch) => {
   axios
-    .delete(`http://localhost:9002/cart/${prop._id}`)
+    .delete(`https://evening-meadow-93654.herokuapp.com/cart/${prop._id}`)
     .then((res) => {
       console.log(res.data);
       dispatch(removeChickenCart(res.data));
@@ -66,7 +66,7 @@ export const getChickenCart = (payload) => ({
 
 export const getChickenToCart = (payload) => (dispatch) => {
   axios
-    .get("http://localhost:9002/cart")
+    .get("https://evening-meadow-93654.herokuapp.com/cart")
     .then((res) => {
       console.log(res.data);
       dispatch(getChickenCart(res.data));

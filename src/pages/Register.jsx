@@ -20,7 +20,7 @@ export const Register = () => {
   const register = () => {
     const { name, email, mobile, password } = user;
     if (name && email && mobile && password) {
-      axios.post("http://localhost:9002/register", user)
+      axios.post("https://evening-meadow-93654.herokuapp.com/register", user)
       .then((res) => {
         alert(res.data.message);
         navigate("/login")
