@@ -26,13 +26,4 @@ app.use("/register", register);
 const login = require("./controller/login.controller");
 app.use("/login", login);
 
-let port = process.env.PORT || 5000;
-
-app.listen(port, function () {
-  try {
-    connect();
-    console.log("listening 5000");
-  } catch (err) {
-    console.log(err);
-  }
-});
+module.exports = app;
