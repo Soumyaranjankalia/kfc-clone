@@ -29,7 +29,7 @@ console.log(addChickenToCart());
   return (
     <Box>
       <Flex>
-        <Box border="1px solid red" textAlign="left" marginLeft={"100px"}>
+        <Box  textAlign="left" marginLeft={"100px"}>
           <Box h={"80px"}>
             <Flex gap="10px">
               <Box h="40px" w="15px" backgroundColor={"red"}></Box>
@@ -127,7 +127,7 @@ console.log(addChickenToCart());
             BEVERAGES
           </Text>
         </Box>
-        <Box border="1px solid black" marginLeft="100px" w="900px">
+        <Box  marginLeft="100px" w="900px">
           <Box>
             <Flex marginTop="80px">
               <Box>
@@ -139,9 +139,9 @@ console.log(addChickenToCart());
             </Flex>
           </Box>
           <Box>
-            <Box border="1px solid black" marginTop="50px"></Box>
+            <Box  marginTop="50px"></Box>
           </Box>
-          <Box border="1px solid blue" backgroundColor={"rgb(248,247,245)"}>
+          <Box  backgroundColor={"rgb(248,247,245)"}>
             <Box>
               <Text fontFamily={"fantasy"} fontSize="30px" textAlign={"left"}>
                 CHICKN BUCKETS
@@ -159,7 +159,6 @@ console.log(addChickenToCart());
                     rounded={"lg"}
                     pos={"relative"}
                     zIndex={1}
-                    border="1px solid red"
                     backgroundColor={"rgb(248,247,245)"}
                   >
                     <Box>

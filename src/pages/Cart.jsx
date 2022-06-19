@@ -55,7 +55,6 @@ export const Cart = () => {
             <Flex>
               <Box
                 marginLeft="100px"
-                border="1px solid red"
                 w={"800px"}
                 backgroundColor="rgb(248,247,245)"
               >
@@ -85,7 +84,7 @@ export const Cart = () => {
                       </Button>
                     </Box>
                   </Box>
-                  <Box border="1px solid black" marginLeft="200px">
+                  <Box  marginLeft="200px">
                     <Flex>
                       <Box>
                         <Flex gap="20px" marginTop="15px">
@@ -111,7 +110,6 @@ export const Cart = () => {
           ))}
         </Box>
         <Box
-          border="1px solid blue"
           w="400px"
           marginLeft="50px"
           marginTop="120px"
@@ -119,7 +117,6 @@ export const Cart = () => {
         >
           <Box
             textAlign={"left"}
-            border="1px solid red"
             w={"350px"}
             marginLeft="25px"
           >
@@ -161,13 +158,13 @@ export const Cart = () => {
                 <Text>0.00</Text>
               </Flex>
             </Box>
-            <Box border="1px solid gray" marginTop="30px">
+            <Box  marginTop="30px">
               <Flex gap="20px">
                 <Checkbox />
                 <Text>₹6.00 Tick to add a large carry bag.</Text>
               </Flex>
             </Box>
-            <Box border="1px solid gray" marginTop="30px">
+            <Box  marginTop="30px">
               <Flex gap="20px">
                 <Checkbox />
                 <Text>Donate ₹5.00 Tick to Add Hope.</Text>
@@ -189,10 +186,10 @@ export const Cart = () => {
           </Box>
         </Box>
       </Flex>
-      <Box border="1px solid black" h="500px" marginTop="50px">
-        <Box border="1px solid red" h="400px" w="1100px" marginLeft="90px">
+      <Box  h="500px" marginTop="50px">
+        <Box  h="400px" w="1100px" marginLeft="90px">
           <Flex gap="100px">
-            <Box border="1px solid" w="500px">
+            <Box w="500px">
               <Text textAlign="left" fontWeight="bold" fontSize="2xl">
                 FAQ
               </Text>
@@ -232,7 +229,7 @@ export const Cart = () => {
                 </Text>
               </Box>
             </Box>
-            <Box border="1px solid" w="500px">
+            <Box  w="500px">
               <Text textAlign={"left"} fontWeight="bold" fontFamily="2xl">
                 STILL HAVE A QUESTION?
               </Text>

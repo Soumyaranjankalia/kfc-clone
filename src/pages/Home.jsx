@@ -23,7 +23,6 @@ export const Home = () => {
   }, []);
   console.log(homedata);
   return (
-    
     <Box>
       <Box>
         <Image src="https://images.ctfassets.net/wtodlh47qxpt/2cKs5e17FbKIE7Dza5ZlNM/996c91ae970f53a25b6bba8036f97aff/Biryani_Banner_1440x396px.jpg?w=1366&fit=fill&fm=webp" />
@@ -52,12 +51,7 @@ export const Home = () => {
             </Text>
           </Flex>
           <Flex>
-            <Box
-              border="1px solid gray"
-              w="630px"
-              height="0"
-              marginTop="22px"
-            ></Box>
+            <Box w="630px" height="0" marginTop="22px"></Box>
           </Flex>
         </Flex>
         <Box>
@@ -98,49 +92,103 @@ export const Home = () => {
           </Center>
         </Box>
       </Box>
-      <Box border="1px solid red" backgroundColor="rgb(32,33,36)" >
-        <Flex border="1px solid white" width="1100px" marginLeft="120px" marginTop="100px" marginBottom="50px" justify={"space-between"}>
+      <Box backgroundColor="rgb(32,33,36)">
+        <Flex
+          width="1100px"
+          marginLeft="120px"
+          marginTop="100px"
+          marginBottom="50px"
+          justify={"space-between"}
+        >
           <Flex>
-            <Text color="white" fontFamily="National 2 Condensed" fontSize="38px" fontWeight="700" lineHeight="43px" letterSpacing="1px">
+            <Text
+              color="white"
+              fontFamily="National 2 Condensed"
+              fontSize="38px"
+              fontWeight="700"
+              lineHeight="43px"
+              letterSpacing="1px"
+            >
               OFFERS & DEALS
             </Text>
           </Flex>
           <Flex>
-            <Text marginTop="10px" color="white" fontFamily="National 2 Condensed" fontSize="14px" fontWeight="500" lineHeight="24px">
+            <Text
+              marginTop="10px"
+              color="white"
+              fontFamily="National 2 Condensed"
+              fontSize="14px"
+              fontWeight="500"
+              lineHeight="24px"
+            >
               View All Deals
             </Text>
           </Flex>
         </Flex>
-        <Flex gap={"30px"} justify="center" >
+        <Flex gap={"30px"} justify="center">
           <Flex>
-            <Box w="250px" border="1px solid white" backgroundColor="white" borderRadius={"10px"}>
-              <Image rounded={"lg"} src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg" />
+            <Box
+              w="250px"
+              backgroundColor="white"
+              borderRadius={"10px"}
+            >
+              <Image
+                rounded={"lg"}
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg"
+              />
               <Text>
-              1 Pc free Chicken Zinger on a cart value of 399 or above on first order. Only for registered users.
+                1 Pc free Chicken Zinger on a cart value of 399 or above on
+                first order. Only for registered users.
               </Text>
             </Box>
           </Flex>
           <Flex>
-            <Box w="250px" h={"300px"} border="1px solid white" backgroundColor="white" borderRadius={"10px"} textOverflow="ellipsis" >
-            <Image rounded={"lg"} src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg" />
+            <Box
+              w="250px"
+              h={"300px"}
+              backgroundColor="white"
+              borderRadius={"10px"}
+              textOverflow="ellipsis"
+            >
+              <Image
+                rounded={"lg"}
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg"
+              />
               <Text>
-              1 Pc free Chicken Zinger on a cart value of 399 or above on first order. Only for registered users.
+                1 Pc free Chicken Zinger on a cart value of 399 or above on
+                first order. Only for registered users.
               </Text>
             </Box>
           </Flex>
           <Flex>
-            <Box w="250px" border="1px solid white" backgroundColor="white" borderRadius={"10px"}>
-            <Image rounded={"lg"} src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg" />
+            <Box
+              w="250px"
+              backgroundColor="white"
+              borderRadius={"10px"}
+            >
+              <Image
+                rounded={"lg"}
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg"
+              />
               <Text>
-              1 Pc free Chicken Zinger on a cart value of 399 or above on first order. Only for registered users.
+                1 Pc free Chicken Zinger on a cart value of 399 or above on
+                first order. Only for registered users.
               </Text>
             </Box>
           </Flex>
           <Flex>
-            <Box w="250px" border="1px solid white" backgroundColor="white" borderRadius={"10px"}>
-            <Image rounded={"lg"} src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg" />
+            <Box
+              w="250px"
+              backgroundColor="white"
+              borderRadius={"10px"}
+            >
+              <Image
+                rounded={"lg"}
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/CHKZINGER.jpg"
+              />
               <Text>
-              1 Pc free Chicken Zinger on a cart value of 399 or above on first order. Only for registered users.
+                1 Pc free Chicken Zinger on a cart value of 399 or above on
+                first order. Only for registered users.
               </Text>
             </Box>
           </Flex>

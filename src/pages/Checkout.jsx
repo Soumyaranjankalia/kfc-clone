@@ -9,8 +9,14 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { CartCounter } from "../components/CartCounter";
+import {useNavigate} from "react-router-dom"
 
 export const Checkout = () => {
+  const navigate = useNavigate()
+  const handelPayment=() => {
+  alert("order Success")
+  navigate("/")
+  }
   return (
     <Box>
       <Box textAlign="left" marginLeft={"100px"}>
@@ -164,6 +170,7 @@ export const Checkout = () => {
               marginLeft="20px"
               marginBottom="30px"
               color="white"
+              onClick={handelPayment}
             >
               Payment
             </Button>
