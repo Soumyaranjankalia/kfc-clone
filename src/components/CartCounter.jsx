@@ -14,10 +14,13 @@ export const CartCounter = () => {
   // },[cart[0]?.length, dispatch]);
 
   return (
-    <Text
-    >
-      {cart[0]?.length ? cart[0].length : 0}
-    </Text>
+    <Box
+    right="120"
+    top="9"
+    fontWeight="bold"
+  >
+    {cart[0]?.length ? cart[0].length : 0}
+  </Box>
   );
 };
 

@@ -44,9 +44,21 @@ export const Navbar = () => {
               marginLeft="20px"
               marginTop="13px"
             >
-              Price{<Price />}
+              {<Price />}
             </Flex>
-            <Text>{cart[0]?.length ? cart[0].length : 0}</Text>
+            <Box
+              borderRadius="50%"
+              width="20px"
+              height="20px"
+              textAlign="center"
+              paddingBottom="20px"
+              position="fixed"
+              right="120"
+              top="9"
+              fontWeight="bold"
+            >
+              {cart[0]?.length ? cart[0].length : 0}
+            </Box>
             <Flex>
               <Link to={"/cart"}>
                 <Image

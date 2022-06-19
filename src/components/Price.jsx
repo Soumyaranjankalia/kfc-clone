@@ -21,9 +21,9 @@ export const Price = () => {
   },[cart[0]?.length, dispatch]);
 
   return (
-    <Text
+    <Text fontWeight={"bold"}
     >
-      {cartprice}
+      ₹ {cartprice}
     </Text>
   );
 };

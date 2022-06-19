@@ -207,7 +207,7 @@ console.log(addChickenToCart());
                           backgroundColor="rgb(228,0,43)"
                           color={"white"}
                           gap="10px"
-                          onClick={()=>dispatch(addChickenToCart(e))}
+                          onClick={()=>window.location.reload()(dispatch(addChickenToCart(e)))}
                         >
                           Add to Cart{" "}
                           <Image src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" />
