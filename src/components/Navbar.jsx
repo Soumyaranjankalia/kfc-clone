@@ -15,7 +15,9 @@ export const Navbar = () => {
         <Flex justify={"space-between"} marginTop="20px">
           <Flex gap="40px">
             <Flex marginLeft={"100px"}>
+              <Link to={"/"}>
               <Image src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" />
+              </Link>
             </Flex>
             <Flex>
               <Text fontWeight={"bold"} marginTop="13px">
